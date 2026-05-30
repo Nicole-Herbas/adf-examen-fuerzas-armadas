@@ -1,0 +1,33 @@
+{
+	"name": "DS_tbl_tipos_movimiento",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ASDBfuerarm",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "bronze"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id_tipo",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "nombre",
+				"type": "varchar"
+			},
+			{
+				"name": "descripcion",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "oltp",
+			"table": "tbl_tipos_movimiento"
+		}
+	}
+}
