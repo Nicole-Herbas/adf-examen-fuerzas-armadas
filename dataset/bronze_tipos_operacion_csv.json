@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "tbl_tipos_operacion.csv",
 				"folderPath": "tbl_tipos_operacion",
 				"fileSystem": "bronze"
 			},
