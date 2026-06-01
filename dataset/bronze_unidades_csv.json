@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "tbl_unidades.csv",
 				"folderPath": "tbl_unidades",
 				"fileSystem": "bronze"
 			},
