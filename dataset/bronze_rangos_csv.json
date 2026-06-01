@@ -1,0 +1,23 @@
+{
+	"name": "bronze_rangos_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLSfuerarma",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "tbl_rangos",
+				"fileSystem": "bronze"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
